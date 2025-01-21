@@ -1,0 +1,107 @@
+name: one_love
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  qr_flutter: ^4.1.0
+  sizer: ^2.0.15
+  delayed_display: ^2.0.0
+  zoom_tap_animation: ^1.1.0
+  flutter_spinkit:
+  flutter_launcher_icons: ^0.13.1
+  dropdown_button2: ^2.0.0
+  intl_phone_number_input: ^0.7.2
+  flutter_switch: ^0.3.2
+  cached_network_image: ^3.3.0
+  image_picker: ^1.0.5
+  flutter_staggered_grid_view: ^0.6.1+1
+  intl: ^0.18.1
+  table_calendar: ^3.0.0
+  easy_date_timeline: ^1.0.3
+  flutter_otp_text_field: ^1.2.0
+  flutter_advanced_switch: ^3.1.0
+  shared_preferences: ^2.2.3
+  pull_to_refresh: ^2.0.0
+  showcaseview: ^3.0.0
+  firebase_messaging: ^15.0.4
+  firebase_core: ^3.3.0
+  flutter_local_notifications: ^17.2.2
+  googleapis:
+  googleapis_auth:
+  shimmer: ^3.0.0
+  path_provider: ^2.1.4
+  calendar_date_picker2: ^1.1.6
+  syncfusion_flutter_datepicker: ^26.2.11
+  keep_screen_on: ^3.0.0
+  cron: ^0.6.1
+  reorderable_grid: ^1.0.10
+  pin_code_fields: ^8.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/updated_app_icon.jpg"
+  adaptive_icon_foreground: "assets/icons/updated_app_icon.jpg"
+  adaptive_icon_background: "#000000"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/popup/
+    - assets/icons/
+  fonts:
+
+    - family: RegularText
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+
+    - family: MediumText
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+    - family: SemiBoldText
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+
+    - family: BoldText
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+

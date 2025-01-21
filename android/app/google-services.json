@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "226118640210",
+    "project_id": "one-love-b4c55",
+    "storage_bucket": "one-love-b4c55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226118640210:android:40db5885e0134a0df7f58b",
+        "android_client_info": {
+          "package_name": "com.one_love.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Rn76hZvhX6vAN4mFj2XE-KoumnbVeVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
